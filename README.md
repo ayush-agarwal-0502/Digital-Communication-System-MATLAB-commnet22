@@ -33,3 +33,69 @@ Assignment problem statment ( which is being referred to in the final PS as the 
 Basically , we were supposed to implement Cyclic Redundancy Check ( CRC) on a Digital message .
 
 Its solution also I have uploaded in this repository : https://github.com/ayush-agarwal-0502/Digital-Communication-System-MATLAB-commnet22/blob/main/Cyclic_redundancy_check_code.mlx (MATLAB file ) 
+
+## Digital Communication system basic structure :
+
+![image](https://user-images.githubusercontent.com/86561124/164157897-1a0b707b-01aa-4908-a9ad-b341c5acac2a.png)
+
+## Our project work description :
+
+There are 3 codes in this repository , one for audio transmission , one for image and one for video . The basic principle however remains the same : i.e. Converting the information into bits and then applying the standard digital communicaiton techniques . 
+
+### Image Transmission:-
+
+• First read the image
+
+• Then made it’s 1D array 
+
+• Converted the decimal values of pixel into binary .
+
+• It becomes string bcoz of previous operation so converted it back to 
+number 
+
+• Converted 0s to -1s so that BPSK becomes easier 
+
+• Converted it to its electrical version instead of the message version we had 
+, to simulate it on matlab 
+
+• Modulated it (BPSK) by multiplying with carrier wave 
+
+• Added awgn to it to simulate the effect of noise from the channel , as awgn 
+is a good model of noise 
+
+• Demodulated it using an algorithm ( by multiplying by cos and taking 
+convolution ) 
+
+• Reconstructed the message signal from the electrical version 
+
+• Reshaped the received 1D message to image
+
+### Audio Transmission:-
+
+• In audio transmission we first read the audio file from Matlab’s default 
+handle.mat which is an audio file of 8 seconds approximately with a sample 
+rate of 8192. The following steps have been applied only on the first 16384 
+samples that is 2 seconds of the audio file as processing long audio files 
+leads to matlab running out of memory.
+
+• Next source encoding has been implemented by converting the float values 
+from –1 to 1 to bits with 1 bit for the integer part and 20 bits for the 
+decimal part. An extra bit has been added at the start for the sign- 1 for 
+negative and 0 for positive. So every sample is represented as 22 bits.
+
+• Now channel encoding has been implemented using parity bit. We have 
+used odd parity to generate a parity bit for every 22 bits which is essentially 
+every encoded float sample. 
+
+• Following which for the modulation, channel transmission and 
+demodulation part BPSK has been implemented and 10 dB of channel noise 
+has been added using awgn. 
+
+• In a similar fashion channel decoding and source decoding has been 
+implemented then and the final output is written to ‘output.wav’.
+
+### Video transmission :
+
+* Applied MATLAB's standard functions to do all the work .
+* Applied MATLAB's functions for BPSK modulation and demodulation .
+* Rest of the explanation same as audio and image , except that here the work was done using MATLAB functions instead from scratch .
