@@ -42,7 +42,7 @@ Its solution also I have uploaded in this repository : https://github.com/ayush-
 
 There are 3 codes in this repository , one for audio transmission , one for image and one for video . The basic principle however remains the same : i.e. Converting the information into bits and then applying the standard digital communicaiton techniques . 
 
-Rough Diagrametic explanation of BPSK using a sample message signal :
+### Rough Diagrametic explanation of BPSK using a sample message signal :
 
 Original message :
 
