@@ -42,6 +42,29 @@ Its solution also I have uploaded in this repository : https://github.com/ayush-
 
 There are 3 codes in this repository , one for audio transmission , one for image and one for video . The basic principle however remains the same : i.e. Converting the information into bits and then applying the standard digital communicaiton techniques . 
 
+Rough Diagrametic explanation of BPSK using a sample message signal :
+
+Original message :
+
+![image](https://user-images.githubusercontent.com/86561124/164163706-808aec93-a92e-43bd-8d6a-5635b432fc6c.png)
+
+After converting 0 to -1s :
+
+![image](https://user-images.githubusercontent.com/86561124/164163722-fcda9f08-6a82-4ad8-adf9-0bb330993b5f.png)
+
+Message signal after transmission from the channel (addition of AWGN ) :
+
+![image](https://user-images.githubusercontent.com/86561124/164163760-ced55c01-6c13-45ab-9040-8358ab90351e.png)
+
+Demodulating :
+
+![image](https://user-images.githubusercontent.com/86561124/164163773-a132136c-52a7-4281-9831-64611468451c.png)
+
+Retrived message signal :
+
+![image](https://user-images.githubusercontent.com/86561124/164163782-3cfeabf2-72f7-44f2-9a8e-5b67aa1b3470.png)
+
+
 ### Image Transmission:-
 
 MATLAB Code : https://github.com/ayush-agarwal-0502/Digital-Communication-System-MATLAB-commnet22/blob/main/imgt.m
