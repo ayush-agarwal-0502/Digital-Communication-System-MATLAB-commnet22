@@ -25,3 +25,11 @@ Digital Communication system implemented from scratch on MATLAB and used for tra
 ## The PS in short :
 
 Make/Implement a digital communication system from scratch .
+
+## The Assignment :
+
+Assignment problem statment ( which is being referred to in the final PS as the tie-breaker ) can be referred from here : https://github.com/ayush-agarwal-0502/Digital-Communication-System-MATLAB-commnet22/blob/main/Assignment.pdf ( uploaded in this repository ) 
+
+Basically , we were supposed to implement Cyclic Redundancy Check ( CRC) on a Digital message .
+
+Its solution also I have uploaded in this repository : https://github.com/ayush-agarwal-0502/Digital-Communication-System-MATLAB-commnet22/blob/main/Cyclic_redundancy_check_code.mlx (MATLAB file ) 
