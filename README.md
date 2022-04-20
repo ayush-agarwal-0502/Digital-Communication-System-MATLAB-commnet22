@@ -44,6 +44,8 @@ There are 3 codes in this repository , one for audio transmission , one for imag
 
 ### Image Transmission:-
 
+MATLAB Code : https://github.com/ayush-agarwal-0502/Digital-Communication-System-MATLAB-commnet22/blob/main/imgt.m
+
 • First read the image
 
 • Then made it’s 1D array 
@@ -72,6 +74,8 @@ convolution )
 
 ### Audio Transmission:-
 
+MATLAB Code : https://github.com/ayush-agarwal-0502/Digital-Communication-System-MATLAB-commnet22/blob/main/audiot.mlx
+
 • In audio transmission we first read the audio file from Matlab’s default 
 handle.mat which is an audio file of 8 seconds approximately with a sample 
 rate of 8192. The following steps have been applied only on the first 16384 
@@ -96,6 +100,8 @@ implemented then and the final output is written to ‘output.wav’.
 
 ### Video transmission :
 
-* Applied MATLAB's standard functions to do all the work .
+MATLAB Code : https://github.com/ayush-agarwal-0502/Digital-Communication-System-MATLAB-commnet22/blob/main/videotransfer.m
+
+* Applied MATLAB's standard functions to do all the message breaking work .
 * Applied MATLAB's functions for BPSK modulation and demodulation .
 * Rest of the explanation same as audio and image , except that here the work was done using MATLAB functions instead from scratch .
